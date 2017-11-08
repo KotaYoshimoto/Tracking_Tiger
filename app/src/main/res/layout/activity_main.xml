@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ykouta.tracking_tiger2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:text="@string/header_text"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/syaryoNum"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+        <TextView
+            style="@style/tableHeaderText"
+            android:id="@+id/textView1"
+            android:text="@string/header_text1" />
+
+        <TextView
+            style="@style/tableHeaderText"
+            android:id="@+id/textView2"
+            android:text="@string/header_text2"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            style="@style/tableHeaderText"
+            android:id="@+id/textView"
+            android:text="@string/header_text3"
+            android:layout_marginStart="100dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/tableHeaderText" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/tableHeaderText"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/tableHeaderText" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/history"
+        style="@style/ButtonText"
+        android:text="@string/history"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/syaryoNumInput"
+            style="@style/ButtonText"
+            android:gravity="start"
+            android:text="@string/syaryoNumInput"/>
+
+        <Button
+            android:id="@+id/tumikomi"
+            style="@style/ButtonText"
+            android:gravity="start"
+            android:text="@string/tumikomi"
+            android:layout_marginStart="50dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/trackingStart"
+        style="@style/ButtonText"
+        android:text="@string/trackingStart"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

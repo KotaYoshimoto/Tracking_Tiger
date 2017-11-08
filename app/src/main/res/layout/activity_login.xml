@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFE0"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="パスワードを入力"
+        android:inputType="textPassword"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="ログインIDを入力"
+        android:inputType="textPersonName" />
+
+    <Button
+        style="@style/ButtonText"
+        android:layout_marginTop="10dp"
+        android:text="ログイン"/>
+
+</LinearLayout>
