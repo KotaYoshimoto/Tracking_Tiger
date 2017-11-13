@@ -12,13 +12,16 @@
         android:layout_marginTop="150dp">
 
         <EditText
+            android:id = "@+id/inputEdit"
             android:layout_width="320dp"
             android:layout_height="50dp"
             android:textSize="20dp"
-            android:hint="車両番号を入力"/>
+            android:hint="車両番号を入力"
+            android:inputType="number"/>
 
         <Button
             style="@style/sendButtonText"
+            android:id = "@+id/sendButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"

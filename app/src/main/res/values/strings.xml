@@ -1,15 +1,24 @@
 <resources>
+
+    <!--アプリのタイトル-->
     <string name="app_name">Tracking_Tiger</string>
 
+    <!--表の見出し-->
     <string name="header_text">車両番号</string>
     <string name="header_text1">荷物番号</string>
     <string name="header_text2">積載物</string>
     <string name="header_text3">積載量</string>
 
-    <string name="history">運送履歴確認</string>
+    <!--ボタンのテキスト-->
     <string name="syaryoNumInput">車両番号入力</string>
     <string name="tumikomi">荷物積み込み</string>
     <string name="trackingStart">運送開始</string>
-
+    <string name="trackingEnd">運送終了</string>
     <string name="sendButton">送信</string>
+    <string name="backToHome">Homeへ戻る</string>
+    <string name="backToLogin">ログインぺージに戻る</string>
+
+    <string name="driveEndConf">運送を終了しました</string>
+
+    <string name="logout">ログアウト</string>
 </resources>
